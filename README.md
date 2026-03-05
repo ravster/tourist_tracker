@@ -1,10 +1,18 @@
-# Tourist tracker
-
 Small project to work on my golang & postgres skills. I want to see how much I can bang out with plain old golang stdlib. I usually use Gin for REST & HTTP handling since it is a light library that makes common things easier. But I want to experiment with CQRS for this program, so I'm going to use plain go stdlib. Maybe it'll work out & look good. Or it wouldn't, and I'll have learned something useful.
+
+Hopefully this shows a good example of my Golang and postgres skills. I've done enough Ruby on Rails since 2013 and want to practice more with a statically typed language. Eventually I want to make a script that just shovels a whole load of data at the program, and see how it handles the load and updates aggregate-analysis pages.
+
+# Tourist tracker
 
 Nations track the tourist activity in their borders. This is a service that tries to emulate the various functionalities I've seen and heard of as I've travelled.
 
-Hopefully this shows a good example of my Golang and postgres skills. I've done enough Ruby on Rails since 2013 and want to practice more with a statically typed language. Eventually I want to make a script that just shovels a whole load of data at the program, and see how it handles the load and updates aggregate-analysis pages.
+# Tech used
+- Golang stdlib: Rock-solid and fast.
+- Postgres: Same as above.
+- Docker: Very good for program isolation.
+
+# Additional tech that I'd use in a production system
+- AWS SQS: This is a great message-broker that has been widely used and tested. Great for background jobs.
 
 # TODO
 - Track passport numbers (alnum 20 chars). Age, sex, country, etc to help with profiling visitors.
